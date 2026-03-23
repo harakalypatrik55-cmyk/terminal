@@ -4,7 +4,7 @@ var db = {
             "cas": "21:00",
             "domaci": "BARCELONA",
             "hostia": "RAYO VALLECANO",
-            "analyza": "Úplne nová inštalácia úspešná. Systém beží v priečinku MOJ-ROBOT-V3."
+            "analyza": "Úspešný reštart! Systém opäť komunikuje s GitHubom."
         }
     ]
 };
