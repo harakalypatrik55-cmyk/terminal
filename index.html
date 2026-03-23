@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>AI TERMINAL v3.0</title>
+    <script src="db.js"></script>
+</head>
+<body style="background: #000; color: #0f0; font-family: monospace; padding: 20px;">
+    <h1>> AI_TERMINAL_CORE</h1>
+    <div id="vystup">Čakám na dáta...</div>
+    <script>
+        window.onload = function() {
+            if (typeof db !== 'undefined') {
+                document.getElementById('vystup').innerHTML = "<pre>" + JSON.stringify(db, null, 2) + "</pre>";
+            }
+        }
+    </script>
+</body>
+</html>
